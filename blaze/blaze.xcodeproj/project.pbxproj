@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFC6A1431C87461100D4247A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC6A1421C87461100D4247A /* AppDelegate.swift */; };
+		CFC6A1451C87461100D4247A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC6A1441C87461100D4247A /* ViewController.swift */; };
+		CFC6A1481C87461100D4247A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFC6A1461C87461100D4247A /* Main.storyboard */; };
+		CFC6A14B1C87461100D4247A /* blaze.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CFC6A1491C87461100D4247A /* blaze.xcdatamodeld */; };
+		CFC6A14D1C87461100D4247A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFC6A14C1C87461100D4247A /* Assets.xcassets */; };
+		CFC6A1501C87461100D4247A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFC6A14E1C87461100D4247A /* LaunchScreen.storyboard */; };
+		CFC6A15B1C87461100D4247A /* blazeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC6A15A1C87461100D4247A /* blazeTests.swift */; };
+		CFC6A1661C87461100D4247A /* blazeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC6A1651C87461100D4247A /* blazeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFC6A1571C87461100D4247A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFC6A1371C87461100D4247A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFC6A13E1C87461100D4247A;
+			remoteInfo = blaze;
+		};
+		CFC6A1621C87461100D4247A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFC6A1371C87461100D4247A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFC6A13E1C87461100D4247A;
+			remoteInfo = blaze;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CFC6A13F1C87461100D4247A /* blaze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = blaze.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFC6A1421C87461100D4247A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CFC6A1441C87461100D4247A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CFC6A1471C87461100D4247A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFC6A14A1C87461100D4247A /* blaze.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = blaze.xcdatamodel; sourceTree = "<group>"; };
+		CFC6A14C1C87461100D4247A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFC6A14F1C87461100D4247A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CFC6A1511C87461100D4247A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFC6A1561C87461100D4247A /* blazeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = blazeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFC6A15A1C87461100D4247A /* blazeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blazeTests.swift; sourceTree = "<group>"; };
+		CFC6A15C1C87461100D4247A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFC6A1611C87461100D4247A /* blazeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = blazeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFC6A1651C87461100D4247A /* blazeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blazeUITests.swift; sourceTree = "<group>"; };
+		CFC6A1671C87461100D4247A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFC6A13C1C87461100D4247A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFC6A1531C87461100D4247A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFC6A15E1C87461100D4247A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFC6A1361C87461100D4247A = {
+			isa = PBXGroup;
+			children = (
+				CFC6A1411C87461100D4247A /* blaze */,
+				CFC6A1591C87461100D4247A /* blazeTests */,
+				CFC6A1641C87461100D4247A /* blazeUITests */,
+				CFC6A1401C87461100D4247A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFC6A1401C87461100D4247A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFC6A13F1C87461100D4247A /* blaze.app */,
+				CFC6A1561C87461100D4247A /* blazeTests.xctest */,
+				CFC6A1611C87461100D4247A /* blazeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFC6A1411C87461100D4247A /* blaze */ = {
+			isa = PBXGroup;
+			children = (
+				CFC6A1421C87461100D4247A /* AppDelegate.swift */,
+				CFC6A1441C87461100D4247A /* ViewController.swift */,
+				CFC6A1461C87461100D4247A /* Main.storyboard */,
+				CFC6A14C1C87461100D4247A /* Assets.xcassets */,
+				CFC6A14E1C87461100D4247A /* LaunchScreen.storyboard */,
+				CFC6A1511C87461100D4247A /* Info.plist */,
+				CFC6A1491C87461100D4247A /* blaze.xcdatamodeld */,
+			);
+			path = blaze;
+			sourceTree = "<group>";
+		};
+		CFC6A1591C87461100D4247A /* blazeTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFC6A15A1C87461100D4247A /* blazeTests.swift */,
+				CFC6A15C1C87461100D4247A /* Info.plist */,
+			);
+			path = blazeTests;
+			sourceTree = "<group>";
+		};
+		CFC6A1641C87461100D4247A /* blazeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CFC6A1651C87461100D4247A /* blazeUITests.swift */,
+				CFC6A1671C87461100D4247A /* Info.plist */,
+			);
+			path = blazeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFC6A13E1C87461100D4247A /* blaze */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFC6A16A1C87461100D4247A /* Build configuration list for PBXNativeTarget "blaze" */;
+			buildPhases = (
+				CFC6A13B1C87461100D4247A /* Sources */,
+				CFC6A13C1C87461100D4247A /* Frameworks */,
+				CFC6A13D1C87461100D4247A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = blaze;
+			productName = blaze;
+			productReference = CFC6A13F1C87461100D4247A /* blaze.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFC6A1551C87461100D4247A /* blazeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFC6A16D1C87461100D4247A /* Build configuration list for PBXNativeTarget "blazeTests" */;
+			buildPhases = (
+				CFC6A1521C87461100D4247A /* Sources */,
+				CFC6A1531C87461100D4247A /* Frameworks */,
+				CFC6A1541C87461100D4247A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFC6A1581C87461100D4247A /* PBXTargetDependency */,
+			);
+			name = blazeTests;
+			productName = blazeTests;
+			productReference = CFC6A1561C87461100D4247A /* blazeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CFC6A1601C87461100D4247A /* blazeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFC6A1701C87461100D4247A /* Build configuration list for PBXNativeTarget "blazeUITests" */;
+			buildPhases = (
+				CFC6A15D1C87461100D4247A /* Sources */,
+				CFC6A15E1C87461100D4247A /* Frameworks */,
+				CFC6A15F1C87461100D4247A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFC6A1631C87461100D4247A /* PBXTargetDependency */,
+			);
+			name = blazeUITests;
+			productName = blazeUITests;
+			productReference = CFC6A1611C87461100D4247A /* blazeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFC6A1371C87461100D4247A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = cwood;
+				TargetAttributes = {
+					CFC6A13E1C87461100D4247A = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					CFC6A1551C87461100D4247A = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = CFC6A13E1C87461100D4247A;
+					};
+					CFC6A1601C87461100D4247A = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = CFC6A13E1C87461100D4247A;
+					};
+				};
+			};
+			buildConfigurationList = CFC6A13A1C87461100D4247A /* Build configuration list for PBXProject "blaze" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFC6A1361C87461100D4247A;
+			productRefGroup = CFC6A1401C87461100D4247A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFC6A13E1C87461100D4247A /* blaze */,
+				CFC6A1551C87461100D4247A /* blazeTests */,
+				CFC6A1601C87461100D4247A /* blazeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFC6A13D1C87461100D4247A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFC6A1501C87461100D4247A /* LaunchScreen.storyboard in Resources */,
+				CFC6A14D1C87461100D4247A /* Assets.xcassets in Resources */,
+				CFC6A1481C87461100D4247A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFC6A1541C87461100D4247A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFC6A15F1C87461100D4247A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFC6A13B1C87461100D4247A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFC6A14B1C87461100D4247A /* blaze.xcdatamodeld in Sources */,
+				CFC6A1451C87461100D4247A /* ViewController.swift in Sources */,
+				CFC6A1431C87461100D4247A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFC6A1521C87461100D4247A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFC6A15B1C87461100D4247A /* blazeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFC6A15D1C87461100D4247A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFC6A1661C87461100D4247A /* blazeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFC6A1581C87461100D4247A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFC6A13E1C87461100D4247A /* blaze */;
+			targetProxy = CFC6A1571C87461100D4247A /* PBXContainerItemProxy */;
+		};
+		CFC6A1631C87461100D4247A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFC6A13E1C87461100D4247A /* blaze */;
+			targetProxy = CFC6A1621C87461100D4247A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CFC6A1461C87461100D4247A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFC6A1471C87461100D4247A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CFC6A14E1C87461100D4247A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFC6A14F1C87461100D4247A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFC6A1681C87461100D4247A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CFC6A1691C87461100D4247A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFC6A16B1C87461100D4247A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = blaze/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = caw.blaze;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CFC6A16C1C87461100D4247A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = blaze/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = caw.blaze;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CFC6A16E1C87461100D4247A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = blazeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = caw.blazeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/blaze.app/blaze";
+			};
+			name = Debug;
+		};
+		CFC6A16F1C87461100D4247A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = blazeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = caw.blazeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/blaze.app/blaze";
+			};
+			name = Release;
+		};
+		CFC6A1711C87461100D4247A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = blazeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = caw.blazeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = blaze;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CFC6A1721C87461100D4247A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = blazeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = caw.blazeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = blaze;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFC6A13A1C87461100D4247A /* Build configuration list for PBXProject "blaze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFC6A1681C87461100D4247A /* Debug */,
+				CFC6A1691C87461100D4247A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFC6A16A1C87461100D4247A /* Build configuration list for PBXNativeTarget "blaze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFC6A16B1C87461100D4247A /* Debug */,
+				CFC6A16C1C87461100D4247A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CFC6A16D1C87461100D4247A /* Build configuration list for PBXNativeTarget "blazeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFC6A16E1C87461100D4247A /* Debug */,
+				CFC6A16F1C87461100D4247A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CFC6A1701C87461100D4247A /* Build configuration list for PBXNativeTarget "blazeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFC6A1711C87461100D4247A /* Debug */,
+				CFC6A1721C87461100D4247A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CFC6A1491C87461100D4247A /* blaze.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CFC6A14A1C87461100D4247A /* blaze.xcdatamodel */,
+			);
+			currentVersion = CFC6A14A1C87461100D4247A /* blaze.xcdatamodel */;
+			path = blaze.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CFC6A1371C87461100D4247A /* Project object */;
+}
